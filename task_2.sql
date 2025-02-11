@@ -1,6 +1,5 @@
-SELECT  title, duration FROM Tracks
-ORDER BY duration DESC
-LIMIT 1;
+SELECT title, duration FROM Tracks
+WHERE  duration = (SELECT MAX(duration)FROM Tracks);
 
 SELECT title, duration FROM Tracks
 WHERE  duration >= 210;

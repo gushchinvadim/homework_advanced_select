@@ -10,14 +10,14 @@ VALUES  (1,'R&B'),
         (2,'Pop'),
         (3,'Rock');
 
-INSERT INTO MusicianGenre (MusitianID,GenreID)
+INSERT INTO MusicianGenre (MusitianID, GenreID)
 VALUES  (1,1),
         (2,2),
         (3,3),
         (4,3),
         (5,2);
 
-INSERT INTO Albums (id,title, relisedate)
+INSERT INTO Albums (id,a_title, relisedate)
 VALUES  (1,'Lemonade',2016),
         (2,'Он тебя целует', 2024),
         (3,'Kill `Em All',1983),
@@ -31,7 +31,7 @@ VALUES  (1,1),
         (4,4),
         (5,5);
 
-INSERT INTO  Tracks(id, title, duration, AlbumID)
+INSERT INTO  Tracks(id, t_title, duration, AlbumID)
 VALUES  (1,'Pray You Catch Me',196,1),
         (2, 'Hold Up',221,1),
         (3, 'Он тебя целует',187,2),
@@ -43,7 +43,7 @@ VALUES  (1,'Pray You Catch Me',196,1),
         (9, 'Люберцы',182,5),
         (10, 'Дуся агрегат',285,5);
 
-INSERT INTO  Collectoins(id, title, relisedate)
+INSERT INTO  Collectoins(id, c_title, relisedate)
 VALUES  (1, 'Collectoin-1',1990),
         (2, 'Collectoin-2',2017),
         (3, 'Collectoin-3',2021),
