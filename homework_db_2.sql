@@ -1,7 +1,8 @@
 
 CREATE TABLE IF NOT EXISTS Musician (
     id SERIAL PRIMARY KEY,
-    name VARCHAR(40) NOT NULL
+    nickname VARCHAR(40) NOT NULL,
+    GenreID INTEGER NOT NULL REFERENCES Genres(title)
 );
 CREATE TABLE IF NOT EXISTS Genres (
     id SERIAL PRIMARY KEY,
@@ -12,11 +13,7 @@ CREATE TABLE IF NOT EXISTS MusicianGenre (
     GenreID INTEGER REFERENCES Genres(id),
     CONSTRAINT pk PRIMARY KEY (MusitianID, GenreID)
 );
--- CREATE TABLE IF NOT EXISTS GenreMusician (
---     GenreID INTEGER REFERENCES Genres(id),
---     MusitianID INTEGER REFERENCES Musician(id),
---     CONSTRAINT pk PRIMARY KEY (GenreID, MusitianID)
--- );
+
 CREATE TABLE IF NOT EXISTS  Albums (
     id SERIAL PRIMARY KEY,
     a_title VARCHAR(60) NOT NULL,  

@@ -1,9 +1,9 @@
-INSERT INTO Musician (id,name)
-VALUES  (1,'Beyonce'),
-        (2,'Руки Вверх'),
-        (3,'Metallica'),
-        (4,'Rammstein'),
-        (5, 'Любэ');
+INSERT INTO Musician (id, nickname, GenreID)
+VALUES  (1,'Beyonce', 1),
+        (2,'Руки Вверх', 2),
+        (3,'Metallica', 3),
+        (4,'Rammstein', 3),
+        (5, 'Любэ', 2);
 
 INSERT INTO Genres (id,title)
 VALUES  (1,'R&B'),
