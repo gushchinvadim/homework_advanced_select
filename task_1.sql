@@ -50,16 +50,16 @@ VALUES  (1, 'Collectoin-1',1990),
         (4, 'Collectoin-4',2024);
 
 INSERT INTO  CollectionsTracks(CollectionID, TrackID)
-VALUES  (1, 1),
+VALUES  (1, 6),
         (1, 2),
         (2, 3),
-        (2, 10),
-        (3, 8),
+        (2, 4),
+        (3, 5),
         (3, 1),
-        (3, 4),
-        (4, 5),
-        (4, 6),
-        (4, 7);
+        (3, 7),
+        (4, 8),
+        (4, 9),
+        (4, 10);
 
 
 
