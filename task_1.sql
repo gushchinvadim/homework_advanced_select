@@ -1,4 +1,4 @@
-INSERT INTO Musician (id, nickname, GenreID)
+INSERT INTO Musician (id, nickname)
 VALUES  (1,'Beyonce'),
         (2,'Руки Вверх'),
         (3,'Metallica'),
